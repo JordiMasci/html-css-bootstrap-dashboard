@@ -18,11 +18,10 @@ img {
     width: 100px;
     line-height: 80px;
     border: 2px dashed red;
-    background-color: blue;
 }
 
-.container {
-    border: 2px dashed blue;
+.container-fluid {
+    border: 2px dashed pink;
 }
 
 
@@ -35,12 +34,32 @@ img {
 }
 
 .navbar .col-2 {
-    width: 90px;
+    width: 80px;
 }
 
 
 /* SECTION-SX */
 
 #section-sx {
+    color: white;
+    background-color: #051e34;
+
+}
+
+
+
+
+/* SECTION-DX */
+
+#section-dx {
+    overflow-y: auto;
+    height: 100vh;
+}
+
+
+
+#header {
+    min-height: 200px;
+    background-color: #1b72e8;
     color: white;
 }
