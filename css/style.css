@@ -110,6 +110,11 @@ body {
     width: 20%;
 }
 
+#table-1 button {
+    padding: 2px 5px;
+    font-size: 10px;
+}
+
 .avatar {
     width: 25px;
 }
