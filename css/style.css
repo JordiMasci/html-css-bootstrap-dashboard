@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+}
+
+/* DEBUG */
+
+.box {
+    min-height: 80px;
+    min-width: 100px;
+    line-height: 80px;
+    border: 2px dashed red;
+}
+
+.container {
+    border: 2px dashed blue;
+}
+
+
+
+
+/* NAVBAR */
+
+.navbar {
+    min-height: 100px;
+}
+
+.navbar .col-2 {
+    width: 90px;
+}
