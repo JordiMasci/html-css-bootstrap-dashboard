@@ -2,6 +2,10 @@ img {
     width: 100%;
 }
 
+body {
+    font-family: ;
+}
+
 /* DEBUG */
 
 
@@ -65,7 +69,7 @@ img {
     flex-grow: 1;
 }
 
-
+/* HEADER */
 
 #header {
     min-height: 200px;
@@ -75,4 +79,42 @@ img {
 
 .btn {
     margin-left: 20px;
+}
+
+
+/* TABLE */
+
+.container h4 {
+    background-color: #f7f7f7;
+}
+
+
+/* TABLE-1 */
+#table-1 {
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+}
+
+#table-1 .col-sx {
+    width: 40%;
+}
+
+#table-1 .col-dx {
+    width: 15%;
+}
+
+#table-1 .col-dx-1 {
+    width: 20%;
+}
+
+.avatar {
+    width: 25px;
+}
+
+.font-weight {
+    font-weight: normal;
+    margin-left: 5px;
 }
