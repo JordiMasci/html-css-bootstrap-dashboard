@@ -60,43 +60,88 @@
       <!-- SECTION-DX -->
       <section id="section-dx" class="container-fluid gx-0">
         <header id="header" class="container-fluid">
-
-            <div class="row">
-                <div class="col-12 col-md-4 order-2">
-                    <div class="d-flex p-3 ">
-                        <h5>Nuovo Studente</h5>
-                        <button class="mx-3">img</button>
-                      </div>
-                </div>
-                <div class="col-12 col-md-4 ">
-                    <div class="d-flex flex-wrap p-3">
-                        <h2>Boolean</h2>
-                        <button>Piano blaze</button>
-                      </div>
-            
-                      <div class="d-flex p-3">
-                        <button>3 app</button>
-                        <div>img</div>
-                        <button>+</button>
-                      </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="d-flex px-3 pt-2">
-                        <p>Studenti online negli ultimi 30 minuti</p>
-                      </div>
-                      <div class="d-flex px-3">
-                        <p class="fs-3">125</p>
-                      </div>
-                </div>
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-3 order-2">
+              <div class="d-flex p-3">
+                <h5>Nuovo Studente</h5>
+                <!-- offcavans -->
+                <button
+                class="btn btn-outline-light"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample"
+              >
+                +
+              </button>
+              </div>
             </div>
-          
+            <div class="col-12 col-md-4 col-lg-6">
+              <div class="d-flex flex-wrap p-3">
+                <h2>Boolean</h2>
+                <button>Piano blaze</button>
+              </div>
 
-          
-
-          
+              <div class="d-flex p-3">
+                <button>3 app</button>
+                <div>img</div>
+                <button class="d-lg-none">+</button>
+                <button class="d-none d-lg-block">Boolean mobile app</button>
+                <button class="d-none d-lg-block">Boolean web App</button>
+                <button class="d-none d-lg-block">Boolean blog App</button>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="d-flex px-3 pt-2">
+                <p>Studenti online negli ultimi 30 minuti</p>
+              </div>
+              <div class="d-flex px-3">
+                <p class="fs-3">125</p>
+              </div>
+            </div>
+          </div>
         </header>
       </section>
     </main>
+
+    <!-- OFFCAVANS -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </div>
+        <div class="dropdown mt-3">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+          >
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <!-- BOOTSTRAO JS -->
     <script
