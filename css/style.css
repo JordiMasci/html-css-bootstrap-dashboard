@@ -4,11 +4,21 @@ img {
 
 /* DEBUG */
 
+
 .box {
     min-height: 80px;
     min-width: 100px;
     line-height: 80px;
     border: 2px dashed red;
+}
+
+
+.box-2 {
+    height: 100vh;
+    width: 100px;
+    line-height: 80px;
+    border: 2px dashed red;
+    background-color: blue;
 }
 
 .container {
@@ -26,4 +36,11 @@ img {
 
 .navbar .col-2 {
     width: 90px;
+}
+
+
+/* SECTION-SX */
+
+#section-sx {
+    color: white;
 }
