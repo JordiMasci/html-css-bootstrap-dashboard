@@ -124,6 +124,14 @@ body {
 }
 
 
+#section-sx-dekstop {
+    color: white;
+    background-color: #051e34;
+    height: 100vh;
+    width: 200px;
+    line-height: 80px;
+}
+
 /* OFFCANVAS */
 
 .offcanvas.offcanvas-end {
@@ -148,17 +156,4 @@ body {
     #section-sx {
         display: none;
     }
-
-    #section-sx-dekstop {
-        color: white;
-        background-color: #051e34;
-        height: 100vh;
-        width: 200px;
-        line-height: 80px;
-    }
-
-    .section-sx-dekstop {
-        height: 100vh;
-    }
-  
 }
