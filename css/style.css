@@ -12,10 +12,15 @@ body {
 .box {
     min-height: 80px;
     min-width: 100px;
-    line-height: 80px;
+
     border: 2px dashed red;
 }
 
+.box-tall {
+    min-height: 300px;
+
+    border: 2px dashed red;
+}
 
 .box-2 {
     height: 100vh;
@@ -24,10 +29,12 @@ body {
     /* border: 2px dashed red; */
 }
 
-.container-fluid {
-    /* border: 2px dashed pink; */
+.border {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
-
 
 
 
