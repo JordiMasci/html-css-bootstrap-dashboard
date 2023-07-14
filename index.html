@@ -47,51 +47,71 @@
     </nav> -->
 
     <nav class="navbar navbar-expand-md bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo.svg" alt="Bootstrap" width="30" height="24">
-          </a>
-          <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fa-solid fa-bell" style="color: #ecb25f;"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex flex-grow-1" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  <i class="fa-solid fa-bars"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  <i class="fa-solid fa-question"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="fa-solid fa-ellipsis-vertical"></i>
-                </a>
-              </li>
-             
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-bell" style="color: #ecb25f;"></i>
-                </a>
-                
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.svg" alt="Bootstrap" width="30" height="24" />
+        </a>
+        <button
+          class="navbar-toggler mb-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bell" style="color: #ecb25f"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex flex-grow-1" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa-solid fa-bars"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa-solid fa-question"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-bell" style="color: #ecb25f"></i>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <!-- MAIN -->
     <main class="container-fluid d-flex gx-0">
@@ -111,25 +131,25 @@
           <div class="box">
             <i class="fa-solid fa-house my-3"></i>
             <span>
-                <a href="#">Home</a>
+              <a href="#">Home</a>
             </span>
           </div>
           <div class="box">
             <i class="fa-solid fa-chart-simple mb-3"></i>
             <span>
-                <a href="#">Stats</a>
+              <a href="#">Stats</a>
             </span>
           </div>
           <div class="box flex-grow-1">
             <i class="fa-solid fa-signal mb-3"></i>
             <span>
-                <a href="#">Signals</a>
+              <a href="#">Signals</a>
             </span>
           </div>
           <div class="box">
             <i class="fa-solid fa-gear mb-4"></i>
             <span>
-                <a href="#">Admin</a>
+              <a href="#">Admin</a>
             </span>
           </div>
         </div>
@@ -184,7 +204,7 @@
         <!-- TABLE-1 -->
         <div id="table-1" class="container-fluid mt-3">
           <div class="row g-3">
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-lg-8">
               <!-- CARD-1 -->
               <div class="card mb-3 py-4">
                 <h4 class="border-bottom p-3">Prossime classi</h4>
@@ -217,7 +237,26 @@
                             Done
                           </button>
                         </td>
-                        <td class="col-dx"></td>
+                        <td class="col-dx">
+                          <div
+                            class="btn-group me-2"
+                            role="group"
+                            aria-label="First group"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-pen"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     </tbody>
                     <tbody>
@@ -238,7 +277,26 @@
                             Done
                           </button>
                         </td>
-                        <td class="col-dx"></td>
+                        <td class="col-dx">
+                          <div
+                            class="btn-group me-2"
+                            role="group"
+                            aria-label="First group"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-pen"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     </tbody>
                     <tbody>
@@ -259,7 +317,26 @@
                             Done
                           </button>
                         </td>
-                        <td class="col-dx"></td>
+                        <td class="col-dx">
+                          <div
+                            class="btn-group me-2"
+                            role="group"
+                            aria-label="First group"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-pen"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     </tbody>
                     <tbody>
@@ -280,7 +357,26 @@
                             Done
                           </button>
                         </td>
-                        <td class="col-dx"></td>
+                        <td class="col-dx">
+                          <div
+                            class="btn-group me-2"
+                            role="group"
+                            aria-label="First group"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-pen"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     </tbody>
                     <tbody>
@@ -301,7 +397,26 @@
                             Done
                           </button>
                         </td>
-                        <td class="col-dx"></td>
+                        <td class="col-dx">
+                          <div
+                            class="btn-group me-2"
+                            role="group"
+                            aria-label="First group"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-pen"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     </tbody>
                     <tbody>
@@ -322,7 +437,26 @@
                             Done
                           </button>
                         </td>
-                        <td class="col-dx"></td>
+                        <td class="col-dx">
+                          <div
+                            class="btn-group me-2"
+                            role="group"
+                            aria-label="First group"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-pen"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     </tbody>
                     <tbody>
@@ -343,7 +477,26 @@
                             Done
                           </button>
                         </td>
-                        <td class="col-dx"></td>
+                        <td class="col-dx">
+                          <div
+                            class="btn-group me-2"
+                            role="group"
+                            aria-label="First group"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-pen"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     </tbody>
                     <tbody>
@@ -364,7 +517,26 @@
                             Done
                           </button>
                         </td>
-                        <td class="col-dx"></td>
+                        <td class="col-dx">
+                          <div
+                            class="btn-group me-2"
+                            role="group"
+                            aria-label="First group"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary"
+                            >
+                              <i class="fa-solid fa-pen"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
@@ -574,24 +746,24 @@
             </div>
 
             <div class="col-12 col-md-2 my-2">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"
-                      >CAP</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleFormControlInput1"
-                      placeholder=""
-                    />
-                  </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >CAP</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder=""
+                />
+              </div>
             </div>
 
             <div class="col-12 my-2">
-                <div class="mb-3">
-                    <label for="formFile" class="form-label">Foto</label>
-                    <input class="form-control" type="file" id="formFile">
-                  </div>
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Foto</label>
+                <input class="form-control" type="file" id="formFile" />
+              </div>
             </div>
 
             <div class="col-12 my-2">
